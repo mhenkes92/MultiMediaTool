@@ -53,8 +53,8 @@ def video_processing_thread(action, input_path, output_path):
     finally:
         done_label['text'] = "Done"  # Show "Done" when progress is complete
         done_label.grid()  # Show the "Done" label
-        progress_label.grid_remove()  # Hide the "Progressing..." label
-        spinner_label.grid_remove()  # Hide the spinner
+        progress_label.grid()  # Show the "Progressing..." label
+        spinner_label.grid()  # Show the spinner
         root.update_idletasks()
 
 def update_size_labels(original_size, compressed_size):
@@ -116,7 +116,7 @@ def start_video_processing(action):
         output_path = os.path.splitext(output_path)[0] + ".gif"
 
     # Show "Progressing" message
-    progress_label['text'] = "Progressing..."
+    progress_label['text'] = "Processing..."
     progress_label.grid()  # Show the "Progressing..." label
     done_label.grid_remove()  # Hide the "Done" label initially
 
