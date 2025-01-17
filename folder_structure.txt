@@ -1,0 +1,904 @@
+Folder PATH listing for volume Windows
+Volume serial number is 3C59-D6C9
+C:.
+¦   folder_structure.txt
+¦   
++---1. install python
+¦       python.exe
+¦       
++---2. install packages & set environment
+¦   ¦   installer.py
+¦   ¦   
+¦   +---ffmpeg
+¦   ¦   ¦   ffmpeg.exe
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   README.txt
+¦   ¦   ¦   
+¦   ¦   +---bin
+¦   ¦   ¦       ffmpeg.exe
+¦   ¦   ¦       ffplay.exe
+¦   ¦   ¦       ffprobe.exe
+¦   ¦   ¦       
+¦   ¦   +---doc
+¦   ¦   ¦       bootstrap.min.css
+¦   ¦   ¦       community.html
+¦   ¦   ¦       default.css
+¦   ¦   ¦       developer.html
+¦   ¦   ¦       faq.html
+¦   ¦   ¦       fate.html
+¦   ¦   ¦       ffmpeg-all.html
+¦   ¦   ¦       ffmpeg-bitstream-filters.html
+¦   ¦   ¦       ffmpeg-codecs.html
+¦   ¦   ¦       ffmpeg-devices.html
+¦   ¦   ¦       ffmpeg-filters.html
+¦   ¦   ¦       ffmpeg-formats.html
+¦   ¦   ¦       ffmpeg-protocols.html
+¦   ¦   ¦       ffmpeg-resampler.html
+¦   ¦   ¦       ffmpeg-scaler.html
+¦   ¦   ¦       ffmpeg-utils.html
+¦   ¦   ¦       ffmpeg.html
+¦   ¦   ¦       ffplay-all.html
+¦   ¦   ¦       ffplay.html
+¦   ¦   ¦       ffprobe-all.html
+¦   ¦   ¦       ffprobe.html
+¦   ¦   ¦       general.html
+¦   ¦   ¦       git-howto.html
+¦   ¦   ¦       libavcodec.html
+¦   ¦   ¦       libavdevice.html
+¦   ¦   ¦       libavfilter.html
+¦   ¦   ¦       libavformat.html
+¦   ¦   ¦       libavutil.html
+¦   ¦   ¦       libswresample.html
+¦   ¦   ¦       libswscale.html
+¦   ¦   ¦       mailing-list-faq.html
+¦   ¦   ¦       nut.html
+¦   ¦   ¦       platform.html
+¦   ¦   ¦       style.min.css
+¦   ¦   ¦       
+¦   ¦   +---presets
+¦   ¦           libvpx-1080p.ffpreset
+¦   ¦           libvpx-1080p50_60.ffpreset
+¦   ¦           libvpx-360p.ffpreset
+¦   ¦           libvpx-720p.ffpreset
+¦   ¦           libvpx-720p50_60.ffpreset
+¦   ¦           
+¦   +---poppler
+¦   ¦   +---Library
+¦   ¦   ¦   +---bin
+¦   ¦   ¦   ¦       cairo.dll
+¦   ¦   ¦   ¦       charset.dll
+¦   ¦   ¦   ¦       deflate.dll
+¦   ¦   ¦   ¦       expat.dll
+¦   ¦   ¦   ¦       fontconfig-1.dll
+¦   ¦   ¦   ¦       freetype.dll
+¦   ¦   ¦   ¦       iconv.dll
+¦   ¦   ¦   ¦       jpeg8.dll
+¦   ¦   ¦   ¦       lcms2.dll
+¦   ¦   ¦   ¦       Lerc.dll
+¦   ¦   ¦   ¦       libcrypto-3-x64.dll
+¦   ¦   ¦   ¦       libcurl.dll
+¦   ¦   ¦   ¦       libexpat.dll
+¦   ¦   ¦   ¦       liblzma.dll
+¦   ¦   ¦   ¦       libpng16.dll
+¦   ¦   ¦   ¦       libssh2.dll
+¦   ¦   ¦   ¦       libtiff.dll
+¦   ¦   ¦   ¦       libzstd.dll
+¦   ¦   ¦   ¦       openjp2.dll
+¦   ¦   ¦   ¦       pdfattach.exe
+¦   ¦   ¦   ¦       pdfdetach.exe
+¦   ¦   ¦   ¦       pdffonts.exe
+¦   ¦   ¦   ¦       pdfimages.exe
+¦   ¦   ¦   ¦       pdfinfo.exe
+¦   ¦   ¦   ¦       pdfseparate.exe
+¦   ¦   ¦   ¦       pdftocairo.exe
+¦   ¦   ¦   ¦       pdftohtml.exe
+¦   ¦   ¦   ¦       pdftoppm.exe
+¦   ¦   ¦   ¦       pdftops.exe
+¦   ¦   ¦   ¦       pdftotext.exe
+¦   ¦   ¦   ¦       pdfunite.exe
+¦   ¦   ¦   ¦       pixman-1-0.dll
+¦   ¦   ¦   ¦       poppler-cpp.dll
+¦   ¦   ¦   ¦       poppler-glib.dll
+¦   ¦   ¦   ¦       poppler.dll
+¦   ¦   ¦   ¦       tiff.dll
+¦   ¦   ¦   ¦       zlib.dll
+¦   ¦   ¦   ¦       zstd.dll
+¦   ¦   ¦   ¦       zstd.exe
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---include
+¦   ¦   ¦   ¦   +---poppler
+¦   ¦   ¦   ¦       ¦   Annot.h
+¦   ¦   ¦   ¦       ¦   AnnotStampImageHelper.h
+¦   ¦   ¦   ¦       ¦   Array.h
+¦   ¦   ¦   ¦       ¦   BBoxOutputDev.h
+¦   ¦   ¦   ¦       ¦   CachedFile.h
+¦   ¦   ¦   ¦       ¦   CairoFontEngine.h
+¦   ¦   ¦   ¦       ¦   CairoOutputDev.h
+¦   ¦   ¦   ¦       ¦   CairoRescaleBox.h
+¦   ¦   ¦   ¦       ¦   Catalog.h
+¦   ¦   ¦   ¦       ¦   CertificateInfo.h
+¦   ¦   ¦   ¦       ¦   CharCodeToUnicode.h
+¦   ¦   ¦   ¦       ¦   CharTypes.h
+¦   ¦   ¦   ¦       ¦   CMap.h
+¦   ¦   ¦   ¦       ¦   CurlCachedFile.h
+¦   ¦   ¦   ¦       ¦   CurlPDFDocBuilder.h
+¦   ¦   ¦   ¦       ¦   DateInfo.h
+¦   ¦   ¦   ¦       ¦   Decrypt.h
+¦   ¦   ¦   ¦       ¦   Dict.h
+¦   ¦   ¦   ¦       ¦   Error.h
+¦   ¦   ¦   ¦       ¦   ErrorCodes.h
+¦   ¦   ¦   ¦       ¦   FDPDFDocBuilder.h
+¦   ¦   ¦   ¦       ¦   FILECacheLoader.h
+¦   ¦   ¦   ¦       ¦   FileSpec.h
+¦   ¦   ¦   ¦       ¦   FontEncodingTables.h
+¦   ¦   ¦   ¦       ¦   FontInfo.h
+¦   ¦   ¦   ¦       ¦   Form.h
+¦   ¦   ¦   ¦       ¦   Function.h
+¦   ¦   ¦   ¦       ¦   Gfx.h
+¦   ¦   ¦   ¦       ¦   GfxFont.h
+¦   ¦   ¦   ¦       ¦   GfxState.h
+¦   ¦   ¦   ¦       ¦   GfxState_helpers.h
+¦   ¦   ¦   ¦       ¦   GlobalParams.h
+¦   ¦   ¦   ¦       ¦   HashAlgorithm.h
+¦   ¦   ¦   ¦       ¦   Hints.h
+¦   ¦   ¦   ¦       ¦   JArithmeticDecoder.h
+¦   ¦   ¦   ¦       ¦   JBIG2Stream.h
+¦   ¦   ¦   ¦       ¦   JPEG2000Stream.h
+¦   ¦   ¦   ¦       ¦   JSInfo.h
+¦   ¦   ¦   ¦       ¦   Lexer.h
+¦   ¦   ¦   ¦       ¦   Linearization.h
+¦   ¦   ¦   ¦       ¦   Link.h
+¦   ¦   ¦   ¦       ¦   LocalPDFDocBuilder.h
+¦   ¦   ¦   ¦       ¦   MarkedContentOutputDev.h
+¦   ¦   ¦   ¦       ¦   Movie.h
+¦   ¦   ¦   ¦       ¦   NameToCharCode.h
+¦   ¦   ¦   ¦       ¦   NameToUnicodeTable.h
+¦   ¦   ¦   ¦       ¦   Object.h
+¦   ¦   ¦   ¦       ¦   OptionalContent.h
+¦   ¦   ¦   ¦       ¦   Outline.h
+¦   ¦   ¦   ¦       ¦   OutputDev.h
+¦   ¦   ¦   ¦       ¦   Page.h
+¦   ¦   ¦   ¦       ¦   PageTransition.h
+¦   ¦   ¦   ¦       ¦   Parser.h
+¦   ¦   ¦   ¦       ¦   PDFDoc.h
+¦   ¦   ¦   ¦       ¦   PDFDocBuilder.h
+¦   ¦   ¦   ¦       ¦   PDFDocEncoding.h
+¦   ¦   ¦   ¦       ¦   PDFDocFactory.h
+¦   ¦   ¦   ¦       ¦   poppler-config.h
+¦   ¦   ¦   ¦       ¦   PopplerCache.h
+¦   ¦   ¦   ¦       ¦   poppler_private_export.h
+¦   ¦   ¦   ¦       ¦   PreScanOutputDev.h
+¦   ¦   ¦   ¦       ¦   ProfileData.h
+¦   ¦   ¦   ¦       ¦   PSOutputDev.h
+¦   ¦   ¦   ¦       ¦   PSTokenizer.h
+¦   ¦   ¦   ¦       ¦   Rendition.h
+¦   ¦   ¦   ¦       ¦   SecurityHandler.h
+¦   ¦   ¦   ¦       ¦   SignatureInfo.h
+¦   ¦   ¦   ¦       ¦   Sound.h
+¦   ¦   ¦   ¦       ¦   SplashOutputDev.h
+¦   ¦   ¦   ¦       ¦   Stream-CCITT.h
+¦   ¦   ¦   ¦       ¦   Stream.h
+¦   ¦   ¦   ¦       ¦   StructElement.h
+¦   ¦   ¦   ¦       ¦   StructTreeRoot.h
+¦   ¦   ¦   ¦       ¦   TextOutputDev.h
+¦   ¦   ¦   ¦       ¦   UnicodeCClassTables.h
+¦   ¦   ¦   ¦       ¦   UnicodeCompTables.h
+¦   ¦   ¦   ¦       ¦   UnicodeDecompTables.h
+¦   ¦   ¦   ¦       ¦   UnicodeMap.h
+¦   ¦   ¦   ¦       ¦   UnicodeMapFuncs.h
+¦   ¦   ¦   ¦       ¦   UnicodeMapTables.h
+¦   ¦   ¦   ¦       ¦   UnicodeTypeTable.h
+¦   ¦   ¦   ¦       ¦   UTF.h
+¦   ¦   ¦   ¦       ¦   ViewerPreferences.h
+¦   ¦   ¦   ¦       ¦   XRef.h
+¦   ¦   ¦   ¦       ¦   
+¦   ¦   ¦   ¦       +---cpp
+¦   ¦   ¦   ¦       ¦       poppler-destination.h
+¦   ¦   ¦   ¦       ¦       poppler-document.h
+¦   ¦   ¦   ¦       ¦       poppler-embedded-file.h
+¦   ¦   ¦   ¦       ¦       poppler-font-private.h
+¦   ¦   ¦   ¦       ¦       poppler-font.h
+¦   ¦   ¦   ¦       ¦       poppler-global.h
+¦   ¦   ¦   ¦       ¦       poppler-image.h
+¦   ¦   ¦   ¦       ¦       poppler-page-renderer.h
+¦   ¦   ¦   ¦       ¦       poppler-page-transition.h
+¦   ¦   ¦   ¦       ¦       poppler-page.h
+¦   ¦   ¦   ¦       ¦       poppler-rectangle.h
+¦   ¦   ¦   ¦       ¦       poppler-toc.h
+¦   ¦   ¦   ¦       ¦       poppler-version.h
+¦   ¦   ¦   ¦       ¦       poppler_cpp_export.h
+¦   ¦   ¦   ¦       ¦       
+¦   ¦   ¦   ¦       +---fofi
+¦   ¦   ¦   ¦       ¦       FoFiBase.h
+¦   ¦   ¦   ¦       ¦       FoFiEncodings.h
+¦   ¦   ¦   ¦       ¦       FoFiIdentifier.h
+¦   ¦   ¦   ¦       ¦       FoFiTrueType.h
+¦   ¦   ¦   ¦       ¦       FoFiType1.h
+¦   ¦   ¦   ¦       ¦       FoFiType1C.h
+¦   ¦   ¦   ¦       ¦       
+¦   ¦   ¦   ¦       +---glib
+¦   ¦   ¦   ¦       ¦       poppler-action.h
+¦   ¦   ¦   ¦       ¦       poppler-annot.h
+¦   ¦   ¦   ¦       ¦       poppler-attachment.h
+¦   ¦   ¦   ¦       ¦       poppler-date.h
+¦   ¦   ¦   ¦       ¦       poppler-document.h
+¦   ¦   ¦   ¦       ¦       poppler-enums.h
+¦   ¦   ¦   ¦       ¦       poppler-features.h
+¦   ¦   ¦   ¦       ¦       poppler-form-field.h
+¦   ¦   ¦   ¦       ¦       poppler-layer.h
+¦   ¦   ¦   ¦       ¦       poppler-macros.h
+¦   ¦   ¦   ¦       ¦       poppler-media.h
+¦   ¦   ¦   ¦       ¦       poppler-movie.h
+¦   ¦   ¦   ¦       ¦       poppler-page.h
+¦   ¦   ¦   ¦       ¦       poppler-structure-element.h
+¦   ¦   ¦   ¦       ¦       poppler.h
+¦   ¦   ¦   ¦       ¦       
+¦   ¦   ¦   ¦       +---goo
+¦   ¦   ¦   ¦       ¦       gdir.h
+¦   ¦   ¦   ¦       ¦       gfile.h
+¦   ¦   ¦   ¦       ¦       gmem.h
+¦   ¦   ¦   ¦       ¦       GooCheckedOps.h
+¦   ¦   ¦   ¦       ¦       GooLikely.h
+¦   ¦   ¦   ¦       ¦       GooString.h
+¦   ¦   ¦   ¦       ¦       GooTimer.h
+¦   ¦   ¦   ¦       ¦       grandom.h
+¦   ¦   ¦   ¦       ¦       gstrtod.h
+¦   ¦   ¦   ¦       ¦       ImgWriter.h
+¦   ¦   ¦   ¦       ¦       JpegWriter.h
+¦   ¦   ¦   ¦       ¦       PNGWriter.h
+¦   ¦   ¦   ¦       ¦       TiffWriter.h
+¦   ¦   ¦   ¦       ¦       
+¦   ¦   ¦   ¦       +---splash
+¦   ¦   ¦   ¦               Splash.h
+¦   ¦   ¦   ¦               SplashBitmap.h
+¦   ¦   ¦   ¦               SplashClip.h
+¦   ¦   ¦   ¦               SplashErrorCodes.h
+¦   ¦   ¦   ¦               SplashFont.h
+¦   ¦   ¦   ¦               SplashFontEngine.h
+¦   ¦   ¦   ¦               SplashFontFile.h
+¦   ¦   ¦   ¦               SplashFontFileID.h
+¦   ¦   ¦   ¦               SplashFTFont.h
+¦   ¦   ¦   ¦               SplashFTFontEngine.h
+¦   ¦   ¦   ¦               SplashFTFontFile.h
+¦   ¦   ¦   ¦               SplashGlyphBitmap.h
+¦   ¦   ¦   ¦               SplashMath.h
+¦   ¦   ¦   ¦               SplashPath.h
+¦   ¦   ¦   ¦               SplashPattern.h
+¦   ¦   ¦   ¦               SplashScreen.h
+¦   ¦   ¦   ¦               SplashState.h
+¦   ¦   ¦   ¦               SplashTypes.h
+¦   ¦   ¦   ¦               SplashXPath.h
+¦   ¦   ¦   ¦               SplashXPathScanner.h
+¦   ¦   ¦   ¦               
+¦   ¦   ¦   +---lib
+¦   ¦   ¦   ¦   ¦   poppler-cpp.lib
+¦   ¦   ¦   ¦   ¦   poppler-glib.lib
+¦   ¦   ¦   ¦   ¦   poppler.lib
+¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   +---pkgconfig
+¦   ¦   ¦   ¦           poppler-cpp.pc
+¦   ¦   ¦   ¦           poppler-glib.pc
+¦   ¦   ¦   ¦           poppler.pc
+¦   ¦   ¦   ¦           
+¦   ¦   ¦   +---share
+¦   ¦   ¦       +---man
+¦   ¦   ¦           +---man1
+¦   ¦   ¦                   pdfattach.1
+¦   ¦   ¦                   pdfdetach.1
+¦   ¦   ¦                   pdffonts.1
+¦   ¦   ¦                   pdfimages.1
+¦   ¦   ¦                   pdfinfo.1
+¦   ¦   ¦                   pdfseparate.1
+¦   ¦   ¦                   pdftocairo.1
+¦   ¦   ¦                   pdftohtml.1
+¦   ¦   ¦                   pdftoppm.1
+¦   ¦   ¦                   pdftops.1
+¦   ¦   ¦                   pdftotext.1
+¦   ¦   ¦                   pdfunite.1
+¦   ¦   ¦                   
+¦   ¦   +---share
+¦   ¦       +---poppler
+¦   ¦           ¦   CMakeLists.txt
+¦   ¦           ¦   COPYING
+¦   ¦           ¦   COPYING.adobe
+¦   ¦           ¦   COPYING.gpl2
+¦   ¦           ¦   Makefile
+¦   ¦           ¦   poppler-data.pc
+¦   ¦           ¦   poppler-data.pc.in
+¦   ¦           ¦   README
+¦   ¦           ¦   
+¦   ¦           +---cidToUnicode
+¦   ¦           ¦       Adobe-CNS1
+¦   ¦           ¦       Adobe-GB1
+¦   ¦           ¦       Adobe-Japan1
+¦   ¦           ¦       Adobe-Korea1
+¦   ¦           ¦       
+¦   ¦           +---cMap
+¦   ¦           ¦   +---Adobe-CNS1
+¦   ¦           ¦   ¦       Adobe-CNS1-0
+¦   ¦           ¦   ¦       Adobe-CNS1-1
+¦   ¦           ¦   ¦       Adobe-CNS1-2
+¦   ¦           ¦   ¦       Adobe-CNS1-3
+¦   ¦           ¦   ¦       Adobe-CNS1-4
+¦   ¦           ¦   ¦       Adobe-CNS1-5
+¦   ¦           ¦   ¦       Adobe-CNS1-6
+¦   ¦           ¦   ¦       Adobe-CNS1-7
+¦   ¦           ¦   ¦       Adobe-CNS1-B5pc
+¦   ¦           ¦   ¦       Adobe-CNS1-ETen-B5
+¦   ¦           ¦   ¦       Adobe-CNS1-H-CID
+¦   ¦           ¦   ¦       Adobe-CNS1-H-Host
+¦   ¦           ¦   ¦       Adobe-CNS1-H-Mac
+¦   ¦           ¦   ¦       Adobe-CNS1-UCS2
+¦   ¦           ¦   ¦       B5-H
+¦   ¦           ¦   ¦       B5-V
+¦   ¦           ¦   ¦       B5pc-H
+¦   ¦           ¦   ¦       B5pc-UCS2
+¦   ¦           ¦   ¦       B5pc-UCS2C
+¦   ¦           ¦   ¦       B5pc-V
+¦   ¦           ¦   ¦       CNS-EUC-H
+¦   ¦           ¦   ¦       CNS-EUC-V
+¦   ¦           ¦   ¦       CNS1-H
+¦   ¦           ¦   ¦       CNS1-V
+¦   ¦           ¦   ¦       CNS2-H
+¦   ¦           ¦   ¦       CNS2-V
+¦   ¦           ¦   ¦       ETen-B5-H
+¦   ¦           ¦   ¦       ETen-B5-UCS2
+¦   ¦           ¦   ¦       ETen-B5-V
+¦   ¦           ¦   ¦       ETenms-B5-H
+¦   ¦           ¦   ¦       ETenms-B5-V
+¦   ¦           ¦   ¦       ETHK-B5-H
+¦   ¦           ¦   ¦       ETHK-B5-V
+¦   ¦           ¦   ¦       HKdla-B5-H
+¦   ¦           ¦   ¦       HKdla-B5-V
+¦   ¦           ¦   ¦       HKdlb-B5-H
+¦   ¦           ¦   ¦       HKdlb-B5-V
+¦   ¦           ¦   ¦       HKgccs-B5-H
+¦   ¦           ¦   ¦       HKgccs-B5-V
+¦   ¦           ¦   ¦       HKm314-B5-H
+¦   ¦           ¦   ¦       HKm314-B5-V
+¦   ¦           ¦   ¦       HKm471-B5-H
+¦   ¦           ¦   ¦       HKm471-B5-V
+¦   ¦           ¦   ¦       HKscs-B5-H
+¦   ¦           ¦   ¦       HKscs-B5-V
+¦   ¦           ¦   ¦       UCS2-B5pc
+¦   ¦           ¦   ¦       UCS2-ETen-B5
+¦   ¦           ¦   ¦       UniCNS-UCS2-H
+¦   ¦           ¦   ¦       UniCNS-UCS2-V
+¦   ¦           ¦   ¦       UniCNS-UTF16-H
+¦   ¦           ¦   ¦       UniCNS-UTF16-V
+¦   ¦           ¦   ¦       UniCNS-UTF32-H
+¦   ¦           ¦   ¦       UniCNS-UTF32-V
+¦   ¦           ¦   ¦       UniCNS-UTF8-H
+¦   ¦           ¦   ¦       UniCNS-UTF8-V
+¦   ¦           ¦   ¦       
+¦   ¦           ¦   +---Adobe-GB1
+¦   ¦           ¦   ¦       Adobe-GB1-0
+¦   ¦           ¦   ¦       Adobe-GB1-1
+¦   ¦           ¦   ¦       Adobe-GB1-2
+¦   ¦           ¦   ¦       Adobe-GB1-3
+¦   ¦           ¦   ¦       Adobe-GB1-4
+¦   ¦           ¦   ¦       Adobe-GB1-5
+¦   ¦           ¦   ¦       Adobe-GB1-GBK-EUC
+¦   ¦           ¦   ¦       Adobe-GB1-GBpc-EUC
+¦   ¦           ¦   ¦       Adobe-GB1-H-CID
+¦   ¦           ¦   ¦       Adobe-GB1-H-Host
+¦   ¦           ¦   ¦       Adobe-GB1-H-Mac
+¦   ¦           ¦   ¦       Adobe-GB1-UCS2
+¦   ¦           ¦   ¦       GB-EUC-H
+¦   ¦           ¦   ¦       GB-EUC-V
+¦   ¦           ¦   ¦       GB-H
+¦   ¦           ¦   ¦       GB-V
+¦   ¦           ¦   ¦       GBK-EUC-H
+¦   ¦           ¦   ¦       GBK-EUC-UCS2
+¦   ¦           ¦   ¦       GBK-EUC-V
+¦   ¦           ¦   ¦       GBK2K-H
+¦   ¦           ¦   ¦       GBK2K-V
+¦   ¦           ¦   ¦       GBKp-EUC-H
+¦   ¦           ¦   ¦       GBKp-EUC-V
+¦   ¦           ¦   ¦       GBpc-EUC-H
+¦   ¦           ¦   ¦       GBpc-EUC-UCS2
+¦   ¦           ¦   ¦       GBpc-EUC-UCS2C
+¦   ¦           ¦   ¦       GBpc-EUC-V
+¦   ¦           ¦   ¦       GBT-EUC-H
+¦   ¦           ¦   ¦       GBT-EUC-V
+¦   ¦           ¦   ¦       GBT-H
+¦   ¦           ¦   ¦       GBT-V
+¦   ¦           ¦   ¦       GBTpc-EUC-H
+¦   ¦           ¦   ¦       GBTpc-EUC-V
+¦   ¦           ¦   ¦       UCS2-GBK-EUC
+¦   ¦           ¦   ¦       UCS2-GBpc-EUC
+¦   ¦           ¦   ¦       UniGB-UCS2-H
+¦   ¦           ¦   ¦       UniGB-UCS2-V
+¦   ¦           ¦   ¦       UniGB-UTF16-H
+¦   ¦           ¦   ¦       UniGB-UTF16-V
+¦   ¦           ¦   ¦       UniGB-UTF32-H
+¦   ¦           ¦   ¦       UniGB-UTF32-V
+¦   ¦           ¦   ¦       UniGB-UTF8-H
+¦   ¦           ¦   ¦       UniGB-UTF8-V
+¦   ¦           ¦   ¦       
+¦   ¦           ¦   +---Adobe-Japan1
+¦   ¦           ¦   ¦       78-EUC-H
+¦   ¦           ¦   ¦       78-EUC-V
+¦   ¦           ¦   ¦       78-H
+¦   ¦           ¦   ¦       78-RKSJ-H
+¦   ¦           ¦   ¦       78-RKSJ-V
+¦   ¦           ¦   ¦       78-V
+¦   ¦           ¦   ¦       78ms-RKSJ-H
+¦   ¦           ¦   ¦       78ms-RKSJ-V
+¦   ¦           ¦   ¦       83pv-RKSJ-H
+¦   ¦           ¦   ¦       90ms-RKSJ-H
+¦   ¦           ¦   ¦       90ms-RKSJ-UCS2
+¦   ¦           ¦   ¦       90ms-RKSJ-V
+¦   ¦           ¦   ¦       90msp-RKSJ-H
+¦   ¦           ¦   ¦       90msp-RKSJ-V
+¦   ¦           ¦   ¦       90pv-RKSJ-H
+¦   ¦           ¦   ¦       90pv-RKSJ-UCS2
+¦   ¦           ¦   ¦       90pv-RKSJ-UCS2C
+¦   ¦           ¦   ¦       90pv-RKSJ-V
+¦   ¦           ¦   ¦       Add-H
+¦   ¦           ¦   ¦       Add-RKSJ-H
+¦   ¦           ¦   ¦       Add-RKSJ-V
+¦   ¦           ¦   ¦       Add-V
+¦   ¦           ¦   ¦       Adobe-Japan1-0
+¦   ¦           ¦   ¦       Adobe-Japan1-1
+¦   ¦           ¦   ¦       Adobe-Japan1-2
+¦   ¦           ¦   ¦       Adobe-Japan1-3
+¦   ¦           ¦   ¦       Adobe-Japan1-4
+¦   ¦           ¦   ¦       Adobe-Japan1-5
+¦   ¦           ¦   ¦       Adobe-Japan1-6
+¦   ¦           ¦   ¦       Adobe-Japan1-7
+¦   ¦           ¦   ¦       Adobe-Japan1-90ms-RKSJ
+¦   ¦           ¦   ¦       Adobe-Japan1-90pv-RKSJ
+¦   ¦           ¦   ¦       Adobe-Japan1-H-CID
+¦   ¦           ¦   ¦       Adobe-Japan1-H-Host
+¦   ¦           ¦   ¦       Adobe-Japan1-H-Mac
+¦   ¦           ¦   ¦       Adobe-Japan1-PS-H
+¦   ¦           ¦   ¦       Adobe-Japan1-PS-V
+¦   ¦           ¦   ¦       Adobe-Japan1-UCS2
+¦   ¦           ¦   ¦       EUC-H
+¦   ¦           ¦   ¦       EUC-V
+¦   ¦           ¦   ¦       Ext-H
+¦   ¦           ¦   ¦       Ext-RKSJ-H
+¦   ¦           ¦   ¦       Ext-RKSJ-V
+¦   ¦           ¦   ¦       Ext-V
+¦   ¦           ¦   ¦       H
+¦   ¦           ¦   ¦       Hankaku
+¦   ¦           ¦   ¦       Hiragana
+¦   ¦           ¦   ¦       Hojo-EUC-H
+¦   ¦           ¦   ¦       Hojo-EUC-V
+¦   ¦           ¦   ¦       Hojo-H
+¦   ¦           ¦   ¦       Hojo-V
+¦   ¦           ¦   ¦       Katakana
+¦   ¦           ¦   ¦       NWP-H
+¦   ¦           ¦   ¦       NWP-V
+¦   ¦           ¦   ¦       RKSJ-H
+¦   ¦           ¦   ¦       RKSJ-V
+¦   ¦           ¦   ¦       Roman
+¦   ¦           ¦   ¦       UCS2-90ms-RKSJ
+¦   ¦           ¦   ¦       UCS2-90pv-RKSJ
+¦   ¦           ¦   ¦       UniHojo-UCS2-H
+¦   ¦           ¦   ¦       UniHojo-UCS2-V
+¦   ¦           ¦   ¦       UniHojo-UTF16-H
+¦   ¦           ¦   ¦       UniHojo-UTF16-V
+¦   ¦           ¦   ¦       UniHojo-UTF32-H
+¦   ¦           ¦   ¦       UniHojo-UTF32-V
+¦   ¦           ¦   ¦       UniHojo-UTF8-H
+¦   ¦           ¦   ¦       UniHojo-UTF8-V
+¦   ¦           ¦   ¦       UniJIS-UCS2-H
+¦   ¦           ¦   ¦       UniJIS-UCS2-HW-H
+¦   ¦           ¦   ¦       UniJIS-UCS2-HW-V
+¦   ¦           ¦   ¦       UniJIS-UCS2-V
+¦   ¦           ¦   ¦       UniJIS-UTF16-H
+¦   ¦           ¦   ¦       UniJIS-UTF16-V
+¦   ¦           ¦   ¦       UniJIS-UTF32-H
+¦   ¦           ¦   ¦       UniJIS-UTF32-V
+¦   ¦           ¦   ¦       UniJIS-UTF8-H
+¦   ¦           ¦   ¦       UniJIS-UTF8-V
+¦   ¦           ¦   ¦       UniJIS2004-UTF16-H
+¦   ¦           ¦   ¦       UniJIS2004-UTF16-V
+¦   ¦           ¦   ¦       UniJIS2004-UTF32-H
+¦   ¦           ¦   ¦       UniJIS2004-UTF32-V
+¦   ¦           ¦   ¦       UniJIS2004-UTF8-H
+¦   ¦           ¦   ¦       UniJIS2004-UTF8-V
+¦   ¦           ¦   ¦       UniJISPro-UCS2-HW-V
+¦   ¦           ¦   ¦       UniJISPro-UCS2-V
+¦   ¦           ¦   ¦       UniJISPro-UTF8-V
+¦   ¦           ¦   ¦       UniJISX0213-UTF32-H
+¦   ¦           ¦   ¦       UniJISX0213-UTF32-V
+¦   ¦           ¦   ¦       UniJISX02132004-UTF32-H
+¦   ¦           ¦   ¦       UniJISX02132004-UTF32-V
+¦   ¦           ¦   ¦       V
+¦   ¦           ¦   ¦       WP-Symbol
+¦   ¦           ¦   ¦       
+¦   ¦           ¦   +---Adobe-Japan2
+¦   ¦           ¦   ¦       Adobe-Japan2-0
+¦   ¦           ¦   ¦       
+¦   ¦           ¦   +---Adobe-Korea1
+¦   ¦           ¦   ¦       Adobe-Korea1-0
+¦   ¦           ¦   ¦       Adobe-Korea1-1
+¦   ¦           ¦   ¦       Adobe-Korea1-2
+¦   ¦           ¦   ¦       Adobe-Korea1-H-CID
+¦   ¦           ¦   ¦       Adobe-Korea1-H-Host
+¦   ¦           ¦   ¦       Adobe-Korea1-H-Mac
+¦   ¦           ¦   ¦       Adobe-Korea1-KSCms-UHC
+¦   ¦           ¦   ¦       Adobe-Korea1-KSCpc-EUC
+¦   ¦           ¦   ¦       Adobe-Korea1-UCS2
+¦   ¦           ¦   ¦       KSC-EUC-H
+¦   ¦           ¦   ¦       KSC-EUC-V
+¦   ¦           ¦   ¦       KSC-H
+¦   ¦           ¦   ¦       KSC-Johab-H
+¦   ¦           ¦   ¦       KSC-Johab-V
+¦   ¦           ¦   ¦       KSC-V
+¦   ¦           ¦   ¦       KSCms-UHC-H
+¦   ¦           ¦   ¦       KSCms-UHC-HW-H
+¦   ¦           ¦   ¦       KSCms-UHC-HW-V
+¦   ¦           ¦   ¦       KSCms-UHC-UCS2
+¦   ¦           ¦   ¦       KSCms-UHC-V
+¦   ¦           ¦   ¦       KSCpc-EUC-H
+¦   ¦           ¦   ¦       KSCpc-EUC-UCS2
+¦   ¦           ¦   ¦       KSCpc-EUC-UCS2C
+¦   ¦           ¦   ¦       KSCpc-EUC-V
+¦   ¦           ¦   ¦       UCS2-KSCms-UHC
+¦   ¦           ¦   ¦       UCS2-KSCpc-EUC
+¦   ¦           ¦   ¦       UniKS-UCS2-H
+¦   ¦           ¦   ¦       UniKS-UCS2-V
+¦   ¦           ¦   ¦       UniKS-UTF16-H
+¦   ¦           ¦   ¦       UniKS-UTF16-V
+¦   ¦           ¦   ¦       UniKS-UTF32-H
+¦   ¦           ¦   ¦       UniKS-UTF32-V
+¦   ¦           ¦   ¦       UniKS-UTF8-H
+¦   ¦           ¦   ¦       UniKS-UTF8-V
+¦   ¦           ¦   ¦       
+¦   ¦           ¦   +---Adobe-KR
+¦   ¦           ¦           Adobe-KR-0
+¦   ¦           ¦           Adobe-KR-1
+¦   ¦           ¦           Adobe-KR-2
+¦   ¦           ¦           Adobe-KR-3
+¦   ¦           ¦           Adobe-KR-4
+¦   ¦           ¦           Adobe-KR-5
+¦   ¦           ¦           Adobe-KR-6
+¦   ¦           ¦           Adobe-KR-7
+¦   ¦           ¦           Adobe-KR-8
+¦   ¦           ¦           Adobe-KR-9
+¦   ¦           ¦           Adobe-KR-UCS2
+¦   ¦           ¦           UniAKR-UTF16-H
+¦   ¦           ¦           UniAKR-UTF32-H
+¦   ¦           ¦           UniAKR-UTF8-H
+¦   ¦           ¦           
+¦   ¦           +---nameToUnicode
+¦   ¦           ¦       Bulgarian
+¦   ¦           ¦       Greek
+¦   ¦           ¦       Thai
+¦   ¦           ¦       
+¦   ¦           +---unicodeMap
+¦   ¦                   Big5
+¦   ¦                   Big5ascii
+¦   ¦                   EUC-CN
+¦   ¦                   EUC-JP
+¦   ¦                   GBK
+¦   ¦                   ISO-2022-CN
+¦   ¦                   ISO-2022-JP
+¦   ¦                   ISO-2022-KR
+¦   ¦                   ISO-8859-6
+¦   ¦                   ISO-8859-7
+¦   ¦                   ISO-8859-8
+¦   ¦                   ISO-8859-9
+¦   ¦                   KOI8-R
+¦   ¦                   Latin2
+¦   ¦                   Shift-JIS
+¦   ¦                   TIS-620
+¦   ¦                   Windows-1255
+¦   ¦                   
+¦   +---tesseract
+¦       ¦   ambiguous_words.1.html
+¦       ¦   ambiguous_words.exe
+¦       ¦   classifier_tester.1.html
+¦       ¦   classifier_tester.exe
+¦       ¦   cntraining.1.html
+¦       ¦   cntraining.exe
+¦       ¦   combine_lang_model.1.html
+¦       ¦   combine_lang_model.exe
+¦       ¦   combine_tessdata.1.html
+¦       ¦   combine_tessdata.exe
+¦       ¦   dawg2wordlist.1.html
+¦       ¦   dawg2wordlist.exe
+¦       ¦   libarchive-13.dll
+¦       ¦   libb2-1.dll
+¦       ¦   libbrotlicommon.dll
+¦       ¦   libbrotlidec.dll
+¦       ¦   libbz2-1.dll
+¦       ¦   libcairo-2.dll
+¦       ¦   libcrypto-3-x64.dll
+¦       ¦   libcurl-4.dll
+¦       ¦   libdatrie-1.dll
+¦       ¦   libdeflate.dll
+¦       ¦   libexpat-1.dll
+¦       ¦   libffi-8.dll
+¦       ¦   libfontconfig-1.dll
+¦       ¦   libfreetype-6.dll
+¦       ¦   libfribidi-0.dll
+¦       ¦   libgcc_s_seh-1.dll
+¦       ¦   libgif-7.dll
+¦       ¦   libgio-2.0-0.dll
+¦       ¦   libglib-2.0-0.dll
+¦       ¦   libgmodule-2.0-0.dll
+¦       ¦   libgobject-2.0-0.dll
+¦       ¦   libgraphite2.dll
+¦       ¦   libharfbuzz-0.dll
+¦       ¦   libiconv-2.dll
+¦       ¦   libicudt75.dll
+¦       ¦   libicuin75.dll
+¦       ¦   libicuuc75.dll
+¦       ¦   libidn2-0.dll
+¦       ¦   libintl-8.dll
+¦       ¦   libjbig-0.dll
+¦       ¦   libjpeg-8.dll
+¦       ¦   libleptonica-6.dll
+¦       ¦   libLerc.dll
+¦       ¦   liblz4.dll
+¦       ¦   liblzma-5.dll
+¦       ¦   libopenjp2-7.dll
+¦       ¦   libpango-1.0-0.dll
+¦       ¦   libpangocairo-1.0-0.dll
+¦       ¦   libpangoft2-1.0-0.dll
+¦       ¦   libpangowin32-1.0-0.dll
+¦       ¦   libpcre2-8-0.dll
+¦       ¦   libpixman-1-0.dll
+¦       ¦   libpng16-16.dll
+¦       ¦   libpsl-5.dll
+¦       ¦   libsharpyuv-0.dll
+¦       ¦   libssh2-1.dll
+¦       ¦   libstdc++-6.dll
+¦       ¦   libtesseract-5.dll
+¦       ¦   libthai-0.dll
+¦       ¦   libtiff-6.dll
+¦       ¦   libunistring-5.dll
+¦       ¦   libwebp-7.dll
+¦       ¦   libwebpmux-3.dll
+¦       ¦   libwinpthread-1.dll
+¦       ¦   libzstd.dll
+¦       ¦   lstmeval.1.html
+¦       ¦   lstmeval.exe
+¦       ¦   lstmtraining.1.html
+¦       ¦   lstmtraining.exe
+¦       ¦   merge_unicharsets.1.html
+¦       ¦   merge_unicharsets.exe
+¦       ¦   mftraining.1.html
+¦       ¦   mftraining.exe
+¦       ¦   set_unicharset_properties.1.html
+¦       ¦   set_unicharset_properties.exe
+¦       ¦   shapeclustering.1.html
+¦       ¦   shapeclustering.exe
+¦       ¦   tesseract-uninstall.exe
+¦       ¦   tesseract.1.html
+¦       ¦   tesseract.exe
+¦       ¦   text2image.1.html
+¦       ¦   text2image.exe
+¦       ¦   unicharambigs.5.html
+¦       ¦   unicharset.5.html
+¦       ¦   unicharset_extractor.1.html
+¦       ¦   unicharset_extractor.exe
+¦       ¦   winpath.exe
+¦       ¦   wordlist2dawg.1.html
+¦       ¦   wordlist2dawg.exe
+¦       ¦   zlib1.dll
+¦       ¦   
+¦       +---doc
+¦       ¦       AUTHORS
+¦       ¦       LICENSE
+¦       ¦       README.md
+¦       ¦       
+¦       +---tessdata
+¦           ¦   afr.traineddata
+¦           ¦   amh.traineddata
+¦           ¦   ara.traineddata
+¦           ¦   asm.traineddata
+¦           ¦   aze.traineddata
+¦           ¦   aze_cyrl.traineddata
+¦           ¦   bel.traineddata
+¦           ¦   ben.traineddata
+¦           ¦   bod.traineddata
+¦           ¦   bos.traineddata
+¦           ¦   bre.traineddata
+¦           ¦   bul.traineddata
+¦           ¦   cat.traineddata
+¦           ¦   ceb.traineddata
+¦           ¦   ces.traineddata
+¦           ¦   chi_sim.traineddata
+¦           ¦   chi_sim_vert.traineddata
+¦           ¦   chi_tra.traineddata
+¦           ¦   chi_tra_vert.traineddata
+¦           ¦   chr.traineddata
+¦           ¦   cos.traineddata
+¦           ¦   cym.traineddata
+¦           ¦   dan.traineddata
+¦           ¦   deu.traineddata
+¦           ¦   deu_latf.traineddata
+¦           ¦   div.traineddata
+¦           ¦   dzo.traineddata
+¦           ¦   ell.traineddata
+¦           ¦   eng.traineddata
+¦           ¦   enm.traineddata
+¦           ¦   epo.traineddata
+¦           ¦   equ.traineddata
+¦           ¦   est.traineddata
+¦           ¦   eus.traineddata
+¦           ¦   fao.traineddata
+¦           ¦   fas.traineddata
+¦           ¦   fil.traineddata
+¦           ¦   fin.traineddata
+¦           ¦   fra.traineddata
+¦           ¦   frm.traineddata
+¦           ¦   fry.traineddata
+¦           ¦   gla.traineddata
+¦           ¦   gle.traineddata
+¦           ¦   glg.traineddata
+¦           ¦   grc.traineddata
+¦           ¦   guj.traineddata
+¦           ¦   hat.traineddata
+¦           ¦   heb.traineddata
+¦           ¦   hin.traineddata
+¦           ¦   hrv.traineddata
+¦           ¦   hun.traineddata
+¦           ¦   hye.traineddata
+¦           ¦   iku.traineddata
+¦           ¦   ind.traineddata
+¦           ¦   isl.traineddata
+¦           ¦   ita.traineddata
+¦           ¦   ita_old.traineddata
+¦           ¦   jav.traineddata
+¦           ¦   jaxb-api-2.3.1.jar
+¦           ¦   jpn.traineddata
+¦           ¦   jpn_vert.traineddata
+¦           ¦   kan.traineddata
+¦           ¦   kat.traineddata
+¦           ¦   kat_old.traineddata
+¦           ¦   kaz.traineddata
+¦           ¦   khm.traineddata
+¦           ¦   kir.traineddata
+¦           ¦   kmr.traineddata
+¦           ¦   kor.traineddata
+¦           ¦   lao.traineddata
+¦           ¦   lat.traineddata
+¦           ¦   lav.traineddata
+¦           ¦   lit.traineddata
+¦           ¦   ltz.traineddata
+¦           ¦   mal.traineddata
+¦           ¦   mar.traineddata
+¦           ¦   mkd.traineddata
+¦           ¦   mlt.traineddata
+¦           ¦   mon.traineddata
+¦           ¦   mri.traineddata
+¦           ¦   msa.traineddata
+¦           ¦   mya.traineddata
+¦           ¦   nep.traineddata
+¦           ¦   nld.traineddata
+¦           ¦   nor.traineddata
+¦           ¦   oci.traineddata
+¦           ¦   ori.traineddata
+¦           ¦   osd.traineddata
+¦           ¦   pan.traineddata
+¦           ¦   pdf.ttf
+¦           ¦   piccolo2d-core-3.0.1.jar
+¦           ¦   piccolo2d-extras-3.0.1.jar
+¦           ¦   pol.traineddata
+¦           ¦   por.traineddata
+¦           ¦   pus.traineddata
+¦           ¦   que.traineddata
+¦           ¦   ron.traineddata
+¦           ¦   rus.traineddata
+¦           ¦   san.traineddata
+¦           ¦   ScrollView.jar
+¦           ¦   sin.traineddata
+¦           ¦   slk.traineddata
+¦           ¦   slv.traineddata
+¦           ¦   snd.traineddata
+¦           ¦   spa.traineddata
+¦           ¦   spa_old.traineddata
+¦           ¦   sqi.traineddata
+¦           ¦   srp.traineddata
+¦           ¦   srp_latn.traineddata
+¦           ¦   sun.traineddata
+¦           ¦   swa.traineddata
+¦           ¦   swe.traineddata
+¦           ¦   syr.traineddata
+¦           ¦   tam.traineddata
+¦           ¦   tat.traineddata
+¦           ¦   tel.traineddata
+¦           ¦   tgk.traineddata
+¦           ¦   tha.traineddata
+¦           ¦   tir.traineddata
+¦           ¦   ton.traineddata
+¦           ¦   tur.traineddata
+¦           ¦   uig.traineddata
+¦           ¦   ukr.traineddata
+¦           ¦   urd.traineddata
+¦           ¦   uzb.traineddata
+¦           ¦   uzb_cyrl.traineddata
+¦           ¦   vie.traineddata
+¦           ¦   yid.traineddata
+¦           ¦   yor.traineddata
+¦           ¦   
+¦           +---configs
+¦           ¦       alto
+¦           ¦       ambigs.train
+¦           ¦       api_config
+¦           ¦       bigram
+¦           ¦       box.train
+¦           ¦       box.train.stderr
+¦           ¦       digits
+¦           ¦       get.images
+¦           ¦       hocr
+¦           ¦       inter
+¦           ¦       kannada
+¦           ¦       linebox
+¦           ¦       logfile
+¦           ¦       lstm.train
+¦           ¦       lstmbox
+¦           ¦       lstmdebug
+¦           ¦       makebox
+¦           ¦       page
+¦           ¦       pdf
+¦           ¦       quiet
+¦           ¦       rebox
+¦           ¦       strokewidth
+¦           ¦       tsv
+¦           ¦       txt
+¦           ¦       unlv
+¦           ¦       wordstrbox
+¦           ¦       
+¦           +---script
+¦           ¦       Arabic.traineddata
+¦           ¦       Armenian.traineddata
+¦           ¦       Bengali.traineddata
+¦           ¦       Canadian_Aboriginal.traineddata
+¦           ¦       Cherokee.traineddata
+¦           ¦       Cyrillic.traineddata
+¦           ¦       Devanagari.traineddata
+¦           ¦       Ethiopic.traineddata
+¦           ¦       Fraktur.traineddata
+¦           ¦       Georgian.traineddata
+¦           ¦       Greek.traineddata
+¦           ¦       Gujarati.traineddata
+¦           ¦       Gurmukhi.traineddata
+¦           ¦       Hangul.traineddata
+¦           ¦       Hangul_vert.traineddata
+¦           ¦       HanS.traineddata
+¦           ¦       HanS_vert.traineddata
+¦           ¦       HanT.traineddata
+¦           ¦       HanT_vert.traineddata
+¦           ¦       Hebrew.traineddata
+¦           ¦       Japanese.traineddata
+¦           ¦       Japanese_vert.traineddata
+¦           ¦       Kannada.traineddata
+¦           ¦       Khmer.traineddata
+¦           ¦       Lao.traineddata
+¦           ¦       Latin.traineddata
+¦           ¦       Malayalam.traineddata
+¦           ¦       Myanmar.traineddata
+¦           ¦       Oriya.traineddata
+¦           ¦       Sinhala.traineddata
+¦           ¦       Syriac.traineddata
+¦           ¦       Tamil.traineddata
+¦           ¦       Telugu.traineddata
+¦           ¦       Thaana.traineddata
+¦           ¦       Thai.traineddata
+¦           ¦       Tibetan.traineddata
+¦           ¦       Vietnamese.traineddata
+¦           ¦       
+¦           +---tessconfigs
+¦                   batch
+¦                   batch.nochop
+¦                   matdemo
+¦                   msdemo
+¦                   nobatch
+¦                   segdemo
+¦                   
++---3. MultiMediaTool
+¦       multiTool.py
+¦       
++---HowTo
+        1. install python.PNG
+        2. execute installer.PNG
+        ReadMe.txt
+        
