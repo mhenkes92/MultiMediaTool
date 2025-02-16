@@ -1,0 +1,2 @@
+Nachdem Schritt 1 (Installation Python) und Schritt 2 (Installation Umgebungsvariablen + Pfade) erfolgreich ausgeführt wurden kann das Programm multiTool.py mittels Doppelklick gestartet werden.
+Bitte verändern Sie nicht die Ordnerstruktur. Schritt 1 und Schritt 2 sind nur einmalig notwendig. 
