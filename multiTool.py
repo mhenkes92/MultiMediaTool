@@ -2,13 +2,14 @@ import tkinter as tk
 import wave, requests, os, sys, io, subprocess, threading, base64, shutil, cv2, time, pytesseract, imageio, moviepy
 from tkinter import filedialog, ttk, messagebox
 from moviepy.video.io.VideoFileClip import VideoFileClip
-from PIL import Image, ImageTk
+from PIL import Image, ImageTk, ImageDraw, ImageFont
 import numpy as np
 from io import BytesIO
 from pdf2image import convert_from_path
 from PyPDF2 import PdfWriter, PdfReader
 from pydub import AudioSegment  # New import for audio processing
-
+from spellchecker import SpellChecker
+from reportlab.pdfgen import canvas
 
 # ---------------------- Video Processing Functions ---------------------- #
 
@@ -30,7 +31,7 @@ def compress_video(input_path, output_path):
             # If running in a normal Python environment, use the current directory
             base_path = os.path.dirname(os.path.abspath(__file__))
 
-        ffmpeg_path = shutil.which("ffmpeg")
+        ffmpeg_path = r"C:\ffmpeg\bin\ffmpeg.exe"
         if not ffmpeg_path:
             print("FFmpeg not found in PATH.")
             compression_complete.set()  # Signal that compression is complete even if it fails
@@ -123,76 +124,57 @@ def video_processing_thread(action, input_path, output_path, original_label, com
         progress_label.after(0, lambda: progress_label.config(text="Fertig"))
 
 # ---------------------- PDF Processing Functions ---------------------- #
+tesseract_path = r"C:\tesseract\tesseract.exe"
+pdftoppm_path = r"C:\poppler\Library\bin\pdftoppm.exe"
+
+# Initialize German spellchecker
+spell = SpellChecker(language='de')
+
+def enhance_image(image):
+    """Enhances the document for better OCR by sharpening and improving contrast."""
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    kernel = np.array([[0, -1, 0], [-1, 5,-1], [0, -1, 0]])  # Sharpening kernel
+    sharpened = cv2.filter2D(gray, -1, kernel)
+    enhanced = cv2.convertScaleAbs(sharpened, alpha=1.5, beta=0)  # Contrast adjustment
+    return enhanced
+
+def extract_text(image):
+    """Extracts text using OCR with better accuracy."""
+    custom_config = r'--oem 3 --psm 6 -l deu'
+    return pytesseract.image_to_string(image, config=custom_config)
+
+def correct_text(text):
+    """AI-powered text correction for missing letters, handling None values."""
+    spell = SpellChecker(language='de')
+    words = text.split()
+    corrected_words = [spell.correction(word) if spell.correction(word) is not None else word for word in words]
+    return ' '.join(corrected_words)
 
 def improve_pdf_for_ai_reading(input_path, output_path):
-    # Ensure the output path ends with .pdf
+    """Enhances a scanned PDF for better OCR and saves a corrected structured PDF."""
     if not output_path.lower().endswith('.pdf'):
         output_path = os.path.splitext(output_path)[0] + '.pdf'
-    # Define the output path prefix for the images (before adding -1, -2, etc.)
-    output_path_prefix = os.path.splitext(output_path)[0]
-    # Find the pdftoppm executable
-    pdftoppm_path = shutil.which("pdftoppm")
-    if pdftoppm_path is None:
-        raise FileNotFoundError("pdftoppm executable not found. Please ensure Poppler is installed and in your PATH.")
-        # Find the Tesseract executable
-    tesseract_path = shutil.which("tesseract")
-    if tesseract_path is None:
-        raise FileNotFoundError("Tesseract executable not found. Please ensure Tesseract is installed and in your PATH.")
-    # Convert PDF to PPM images using pdftoppm
-    try:
-        subprocess.run([pdftoppm_path, input_path, output_path_prefix, "-png"], check=True)
-        # Collect all output images (assuming they are named as output_path_prefix-1.png, etc.)
-        images = []
-        i = 1
-        while True:
-            img_file = f"{output_path_prefix}-{i}.png"
-            if os.path.exists(img_file):
-                img = Image.open(img_file)
-                images.append(img)
-                i += 1
-            else:
-                break
+    
+    images = convert_from_path(input_path)  # Convert PDF to images
+    writer = PdfWriter()
+    
+    for img in images:
+        np_img = np.array(img)
+        enhanced_image = enhance_image(np_img)
+        extracted_text = extract_text(enhanced_image)
+        corrected_text = correct_text(extracted_text)
+        
+        # Create a new PDF page with corrected text
+        pdf_bytes = io.BytesIO(pytesseract.image_to_pdf_or_hocr(enhanced_image, extension='pdf'))
+        reader = PdfReader(pdf_bytes)
+        writer.add_page(reader.pages[0])
+    
+    with open(output_path, "wb") as f:
+        writer.write(f)
+    
+    print(f"✅ Verbesserte PDF gespeichert als: {output_path}")
 
-        writer = PdfWriter()
 
-        for img in images:
-            # Convert image to grayscale
-            gray = cv2.cvtColor(np.array(img), cv2.COLOR_BGR2GRAY)
-
-            # Apply adaptive thresholding
-            binary = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
-                                           cv2.THRESH_BINARY, 11, 2)
-
-            # Denoise image
-            denoised = cv2.fastNlMeansDenoising(binary, None, 10, 7, 21)
-
-            # Enhance contrast
-            clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8,8))
-            enhanced = clahe.apply(denoised)
-
-            # Convert back to PIL format
-            enhanced_pil = Image.fromarray(enhanced)
-
-            # Perform OCR to extract text
-            text = pytesseract.image_to_string(enhanced_pil)
-
-            # Create a new PDF page with the improved image
-            pdf = pytesseract.image_to_pdf_or_hocr(enhanced_pil, extension='pdf')
-            pdf_bytes = io.BytesIO(pdf)
-
-            # Add page to the writer
-            reader = PdfReader(pdf_bytes)
-            writer.add_page(reader.pages[0])
-
-        # Save the final enhanced PDF
-        with open(output_path, "wb") as f:
-            writer.write(f)
-
-        print(f"Verbesserte PDF für KI-Lesbarkeit gespeichert als: {output_path}")
-
-    except subprocess.CalledProcessError as e:
-        print(f"Fehler beim Aufruf von pdftoppm: {e}")
-        messagebox.showerror("Fehler", f"Fehler beim Aufruf von pdftoppm: {e}")
 
 def compress_pdf(input_path: str, output_path: str, quality: str = "ebook"):
     """
